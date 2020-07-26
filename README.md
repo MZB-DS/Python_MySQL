@@ -3,7 +3,7 @@ This repository contains python codes for integrating with the mysql database. G
 
 ## How to use the code
 
-1. Provide proper mysql host ip, username, password and any database name in ```sql_to_df.py``` file.
+1. Provide proper mysql host ip, username, password and any database name in ```sqlquery_to_df.py``` file.
 2. Provide in ```sql_query.py```, your mysql select query and the respective column names for your output dataframe.
 3. Run sql_query.py to get the output dataframe in the variable "sql_query_output_df".
 
