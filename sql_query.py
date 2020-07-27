@@ -1,4 +1,4 @@
-from sql_query_to_df import get_data
+from sqlquery_to_df import get_data
 
 my_sql_query = '''select name, address, contact, email, city from people_information where city="PUNE";'''
 column_names = ["Name", "Address", "Contact", "Email", "City"]
